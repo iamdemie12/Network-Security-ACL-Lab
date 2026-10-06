@@ -114,3 +114,46 @@ Screenshots demonstrating the network topology, device configuration, ACL implem
 ## ⚠️ Disclaimer
 
 This project was completed in a controlled Cisco Packet Tracer lab environment for cybersecurity training and educational purposes.
+
+
+---
+
+## 📸 Project Evidence
+
+The following screenshots document the configuration and testing performed during the lab.
+
+### 1. Network Topology
+The completed Cisco Packet Tracer topology showing the segmented HR and Finance network environment.
+
+![Network Topology](images/01-network-topology%5B1%5D.png)
+
+### 2. DHCP Configuration
+DHCP configuration used to automatically assign IP addressing information to network hosts.
+
+![DHCP Configuration](images/02-dhcp-configuration%5B1%5D.png)
+
+### 3. DNS Configuration
+DNS service configuration used within the simulated network environment.
+
+![DNS Configuration](images/03-dns-configuration%5B1%5D.png)
+
+### 4. Web Server Configuration
+Configuration of the internal web server used as a protected network resource during access-control testing.
+
+![Web Server Configuration](images/04-web-server-configuration%5B1%5D.png)
+
+### 5. HR — Permitted Access
+Successful connectivity test demonstrating that authorised HR traffic can reach the protected resource.
+
+![HR Access Successful](images/05-hr-access-success%5B1%5D.png)
+
+### 6. Finance — Access Blocked
+Connectivity test demonstrating that Finance traffic is denied access to the protected resource in accordance with the ACL policy.
+
+![Finance Access Blocked](images/06-finance-access-blocked%5B1%5D.png)
+
+---
+
+## ✅ Project Outcome
+
+This lab demonstrated how network segmentation and Access Control Lists can be used to enforce least-privilege access between departments. The testing confirmed that authorised HR traffic could reach the protected resource while Finance traffic was restricted according to the configured ACL policy.
